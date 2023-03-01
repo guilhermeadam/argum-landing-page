@@ -1,4 +1,4 @@
-import { Box, Button, ItemList, Logo, MenuList } from './styles';
+import { Box, ItemList, Logo, MenuList } from './styles';
 
 
 export default function Header() {
@@ -22,7 +22,6 @@ export default function Header() {
           <a href="#">Contact</a>
         </ItemList>
       </MenuList>
-      <Button>Purchase</Button>
     </Box>
   );
 }
